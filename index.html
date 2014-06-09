@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Lab49 ToDo App</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    
+    <body>
+
+        <div id="toDoApp1" class="app_container">
+            <div class="create_and_list_todo_container">
+              <input type="text" class="create_todo" />
+              <input type="button" class="create_todo_button" value="Create todo" />
+              <ul class="repeat_todos"></ul>
+            </div>          
+          
+            <div class="update_todo_container">
+                <input type="text" value="" class="update_todo">
+                <input type="button" class="update_todo_button" value="Update todo" />
+                <input type="button" class="cancel_todo_button" value="Cancel" />
+            </div>
+        </div>
+
+        <!-- It's possible to have multiple apps per page -->
+        <div id="toDoApp2" class="app_container">
+            <div class="create_and_list_todo_container">
+              <input type="text" class="create_todo" />
+              <input type="button" class="create_todo_button" value="Create todo" />
+              <ul class="repeat_todos"></ul>
+            </div>          
+          
+            <div class="update_todo_container">
+                <input type="text" value="" class="update_todo">
+                <input type="button" class="update_todo_button" value="Update todo" />
+                <input type="button" class="cancel_todo_button" value="Cancel" />
+            </div>
+        </div>        
+
+        <script src="scripts.js"></script>
+    </body>
+
+</html>
